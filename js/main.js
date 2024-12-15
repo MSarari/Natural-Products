@@ -14,7 +14,6 @@ document.addEventListener("DOMContentLoaded", () => {
 		{ opacity: 1, y: 0, duration: 1, ease: "power3.out", delay: 1.2 }
 	);
 
-    // Fade-in for individual cards
     gsap.fromTo(
         ".category-cards", 
         { opacity: 0, scale: 0.8 }, 
